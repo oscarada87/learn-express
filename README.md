@@ -3,6 +3,6 @@
 Steps to run this project:
 
 1. Run `npm i` command
-2. Setup database settings inside `docker-compose.yml` and `ormconfig.json` file
-3. Run `npm db:init` command to setup database with docker 
-4. Run `npm start` command
+2. Duplicate `.env_template` to `.env` and fill in environment variable
+3. Run `npm run db:init` command to setup database with docker
+4. Run `npm start` command or run `npm run dev` command for develop
